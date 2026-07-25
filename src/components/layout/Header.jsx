@@ -1,7 +1,18 @@
 import React from "react";
-import HeaderControl from "../../assets/js/ui_header";
+import useHeaderControl from "../../assets/js/ui_header";
+import { useMatch, useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const aboutMatch = useMatch("/about/*");
+  const workMatch = useMatch("/work/*");
+  const navigate = useNavigate();
+  const {
+    mobilePanelZone,
+    mobilePanelWrap,
+    handleMobilePanelOpen,
+    handleMobilePanelClose,
+  } = useHeaderControl();
+
   return (
     <header className="header-wrap">
       <div className="header-inner">
@@ -15,10 +26,30 @@ const Header = () => {
           <nav className="nav-wrap">
             <ul className="nav-list">
               <li>
-                <button className="nav-item active">ABOUT</button>
+                <button
+                  className={["nav-item", aboutMatch && "active"]
+                    .filter(Boolean)
+                    .join(" ")}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigate("/");
+                  }}
+                >
+                  ABOUT
+                </button>
               </li>
               <li>
-                <button className="nav-item">WORK</button>
+                <button
+                  className={["nav-item", workMatch && "active"]
+                    .filter(Boolean)
+                    .join(" ")}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigate("/work");
+                  }}
+                >
+                  WORK
+                </button>
               </li>
             </ul>
           </nav>
@@ -32,12 +63,12 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        <button className="btn-panel-menu">
+        <button className="btn-panel-menu" onClick={handleMobilePanelOpen}>
           <span className="btn-panel-menu-ico"></span>
           <span className="hdtext">메인 메뉴 열기</span>
         </button>
-        <div className="mobile-menu-zone">
-          <div className="mobile-menu-wrap">
+        <div className="mobile-menu-zone" ref={mobilePanelZone}>
+          <div className="mobile-menu-wrap" ref={mobilePanelWrap}>
             <div className="mobile-menu-inner">
               <ul className="mobile-menu-list">
                 <li>
@@ -48,7 +79,10 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <button className="btn-mobile-menu-close">
+            <button
+              className="btn-mobile-menu-close"
+              onClick={handleMobilePanelClose}
+            >
               <span className="hdtext">메인 메뉴 닫기</span>
             </button>
           </div>
