@@ -908,6 +908,9 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 
 .profile-main-name {
   font-weight: 700;
+  display: flex;
+  gap: 0.3125rem;
+  align-items: center;
   font-size: 1.625rem;
 }
 
@@ -950,10 +953,10 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   height: 1.25rem;
 }
 .profile-icon.icon-notion {
-  background-image: url("../images/icon_notion.jpg");
+  background-image: url("/images/icon_notion.jpg");
 }
 .profile-icon.icon-insta {
-  background-image: url("../images/icon_insta.png");
+  background-image: url("/images/icon_insta.png");
 }
 
 .middle-item.skills-wrap {

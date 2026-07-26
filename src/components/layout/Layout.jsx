@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "./Header";
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {
+  const headerRef = useRef(null);
   return (
     <>
-      <Header />
+      <Header ref={headerRef} />
       <main>
-        <Outlet />
+        <Outlet context={{ headerRef }} />
       </main>
     </>
   );

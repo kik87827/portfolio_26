@@ -1,8 +1,8 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import useHeaderControl from "../../assets/js/ui_header";
 import { useMatch, useNavigate } from "react-router-dom";
 
-const Header = () => {
+const Header = forwardRef(function Header(props, ref) {
   const aboutMatch = useMatch("/about/*");
   const workMatch = useMatch("/work/*");
   const navigate = useNavigate();
@@ -14,7 +14,7 @@ const Header = () => {
   } = useHeaderControl();
 
   return (
-    <header className="header-wrap">
+    <header className="header-wrap" ref={ref}>
       <div className="header-inner">
         <h1 className="toplogo">
           <button className="toplogo-link">
@@ -90,6 +90,6 @@ const Header = () => {
       </div>
     </header>
   );
-};
+});
 
 export default Header;

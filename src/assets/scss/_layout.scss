@@ -394,7 +394,7 @@ html:not(.touchmode) {
 }
 
 .profile-main-name {
-  font-weight: 700;
+  font-weight: 700; display:flex; gap:rem(5); align-items: center;
   font-size: rem(26);
 }
 
@@ -447,11 +447,11 @@ html:not(.touchmode) {
   height: rem(20);
 
   &.icon-notion {
-    background-image: url("../images/icon_notion.jpg");
+    background-image: url("/images/icon_notion.jpg");
   }
 
   &.icon-insta {
-    background-image: url("../images/icon_insta.png");
+    background-image: url("/images/icon_insta.png");
   }
 }
 
