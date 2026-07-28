@@ -567,6 +567,12 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   box-shadow: inset 0px 0px 5px transparent;
 }
 
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .header-wrap {
   position: sticky;
   top: 0;
@@ -753,7 +759,8 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   gap: 1.25rem;
 }
 .middle-wrap {
-  min-height: calc(100vh - 7rem);
+  /* min-height: calc(100vh - rem(112)); */
+  flex: 1;
 }
 
 .middle-templete {

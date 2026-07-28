@@ -15,7 +15,7 @@ html:not(.touchmode) {
     box-shadow: inset 0px 0px 5px transparent;
   }
 }
-
+.page-wrap{display:flex; flex-direction: column; min-height:100vh}
 .header-wrap {
   position: sticky;
   top: 0;
@@ -227,7 +227,7 @@ html:not(.touchmode) {
 }
 
 .middle-wrap {
-  min-height: calc(100vh - rem(112));
+  /* min-height: calc(100vh - rem(112)); */ flex:1;
 }
 
 .middle-templete {

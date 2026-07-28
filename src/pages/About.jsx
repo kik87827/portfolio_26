@@ -41,10 +41,13 @@ const About = () => {
       active: loopIndex === index,
     }));
 
+    let goPos = thisPosTargetPos > window.innerHeight ? thisPosTargetPos - headerWrapHeight - 50 : 0;
+
+
     setLeftMenu(copyMenu);
 
     window.scrollTo({
-      top: thisPosTargetPos - headerWrapHeight - 50,
+      top: goPos,
       behavior: "smooth",
     });
   }
