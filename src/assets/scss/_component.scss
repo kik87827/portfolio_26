@@ -13,15 +13,14 @@
   width: 100%;
   height: 100%;
   z-index: 100000;
-  display: none;
   align-items: center;
   justify-content: center;
   min-width: 280px;
   overflow: hidden;
+  display: flex;
   flex-wrap: wrap;
-  &.active {
-    display: flex;
-    &.motion_end {
+  &.hidden{display:none;}
+  &.motion_end {
       .popup_item {
         opacity: 1;
         transform: translateY(0);
@@ -30,7 +29,6 @@
         opacity: 0.6;
       }
     }
-  }
 }
 .popup_item {
   box-sizing: border-box;
@@ -100,7 +98,7 @@
   line-height: 1.3;
   font-weight: 600;
 }
-.popup_contents_row {
+.popup_contents {
   position: relative;
   overflow: hidden;
   overflow-y: auto;
@@ -108,6 +106,7 @@
   font-size: 16px;
   color: #333333;
   padding: 0 0 0;
+  min-height:100px;
   /* &.scroll_mode{padding-right:60px;} */
   & + .popup_btn_row {
     padding-top: 0;
@@ -236,8 +235,9 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 55px;
-  right: 70px;
+  text-indent: -9999px;
+  top: 30px;
+  right: 30px;
   &:before,
   &:after {
     width: 42px;
