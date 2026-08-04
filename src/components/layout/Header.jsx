@@ -72,10 +72,14 @@ const Header = forwardRef(function Header(props, ref) {
             <div className="mobile-menu-inner">
               <ul className="mobile-menu-list">
                 <li>
-                  <button className="mobile-menu">ABOUT</button>
+                  <button className="mobile-menu" onClick={() => navigate("/")}>
+                    ABOUT
+                  </button>
                 </li>
                 <li>
-                  <button className="mobile-menu">WORK</button>
+                  <button className="mobile-menu" onClick={() => navigate("/work")}>
+                    WORK
+                  </button>
                 </li>
               </ul>
             </div>
