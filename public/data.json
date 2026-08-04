@@ -25,21 +25,21 @@
     "specMain": "현대백화점 홈페이지/앱 운영",
     "specSub": "연간 홈페이지 운영",
     "specLink": "https://www.ehyundai.com/",
-    "detailHTML": "<div style='text-align:center'><img src='./assets/images/ehyundai_pc.jpg' alt=''><br><br><br><img src='./assets/images/ehyundai_mobile.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center'><img src='/images/ehyundai_pc.jpg' alt=''><br><br><br><img src='/images/ehyundai_mobile.jpg' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/bok_ban.png",
     "specMain": "보건복지부 복지위기 알림 앱",
     "specSub": "웹접근성 구축 프로젝트",
     "specLink": "https://play.google.com/store/apps/details?id=kr.ssis.sbj&pli=1",
-    "detailHTML": "<div style='text-align:center;max-width:400px;margin:0 auto;'><img src='./assets/images/bok_view01.jpg' alt=''><br><br><br><img src='./assets/images/bok_view02.jpg' alt=''><br><br><br><img src='./assets/images/bok_view03.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center;max-width:400px;margin:0 auto;'><img src='/images/bok_view01.jpg' alt=''><br><br><br><img src='/images/bok_view02.jpg' alt=''><br><br><br><img src='/images/bok_view03.jpg' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/db_ban.png",
     "specMain": "동부화재 원격컨설팅솔루션",
     "specSub": "단기 구축 프로젝트",
     "specLink": "https://codegv.cafe24.com/db_remote/codinglist.html",
-    "detailHTML": "<div style='text-align:center'><img src='./assets/images/db_view_01.jpg' alt=''><br><br><br><img src='./assets/images/db_view_02.jpg' alt=''><br><br><br><img src='./assets/images/db_view_03.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center'><img src='/images/db_view_01.jpg' alt=''><br><br><br><img src='/images/db_view_02.jpg' alt=''><br><br><br><img src='/images/db_view_03.jpg' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/yessure_ban.png",
@@ -67,7 +67,7 @@
     "specMain": "SKT 멤버십 서비스내의 T 멤버십 글로벌여행 서비스 구축",
     "specSub": "단기 구축 프로젝트",
     "specLink": "#",
-    "detailHTML": "<div style='text-align:center'><img src='./assets/images/tmap_view01.png' alt=''><br><br><br><img src='./assets/images/tmap_view02.png' alt=''><br><br><br><img src='./assets/images/tmap_view03.png' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center'><img src='/images/tmap_view01.png' alt=''><br><br><br><img src='/images/tmap_view02.png' alt=''><br><br><br><img src='/images/tmap_view03.png' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/mb_wyd.png",
@@ -81,62 +81,62 @@
     "specMain": "메인비즈 반응형 구축<br>(접근성 마크 획득)",
     "specSub": "구축 프로젝트",
     "specLink": "https://www.smes.go.kr/mainbiz/main.do",
-    "detailHTML": "<div style='text-align:center;'><img src='./assets/images/mainbiz_pc_main.jpg' alt=''><br><br><br><img src='./assets/images/mainbiz_pc_sub.jpg' alt=''><br><br><br><img src='./assets/images/mainbiz_mobile_main.jpg' alt=''><br><br><br><img src='./assets/images/mainbiz_mobile_sub.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center;'><img src='/images/mainbiz_pc_main.jpg' alt=''><br><br><br><img src='/images/mainbiz_pc_sub.jpg' alt=''><br><br><br><img src='/images/mainbiz_mobile_main.jpg' alt=''><br><br><br><img src='/images/mainbiz_mobile_sub.jpg' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/mb_itoo.png",
     "specMain": "롯데홈쇼핑 아이투 모바일앱",
     "specSub": "연간 앱 운영(서비스종료)",
     "specLink": "#",
-    "detailHTML": "<div style='text-align:center;max-width:400px;margin:0 auto;'><br><br><br><img src='./assets/images/itoo_view01.png' alt=''><br><br><br><img src='./assets/images/itoo_view02.png' alt=''><br><br><br><img src='./assets/images/itoo_view03.png' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center;max-width:400px;margin:0 auto;'><br><br><br><img src='/images/itoo_view01.png' alt=''><br><br><br><img src='/images/itoo_view02.png' alt=''><br><br><br><img src='/images/itoo_view03.png' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/may_ban.png",
     "specMain": "메이블린 뉴욕 100주년 론칭 사이트",
     "specSub": "반응형 구축",
     "specLink": "#",
-    "detailHTML": "<div style='text-align:center;'><img src='./assets/images/may_mainall.png' alt=''><br><br><br><img src='./assets/images/may_m_sub.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center;'><img src='/images/may_mainall.png' alt=''><br><br><br><img src='/images/may_m_sub.jpg' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/fubon_ban.png",
     "specMain": "푸본현대생명 운영",
     "specSub": "연간 운영 프로젝트",
     "specLink": "https://www.fubonhyundai.com/",
-    "detailHTML": "<div style='text-align:center;'><img src='./assets/images/fubon_ss_01.jpg' alt=''><br><br><br><img src='./assets/images/fubon_ss_m01.jpg' alt=''><br><br><br><img src='./assets/images/fubon_ss_02.jpg' alt=''><br><br><br><img src='./assets/images/fubon_ss_m02.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center;'><img src='/images/fubon_ss_01.jpg' alt=''><br><br><br><img src='/images/fubon_ss_m01.jpg' alt=''><br><br><br><img src='/images/fubon_ss_02.jpg' alt=''><br><br><br><img src='/images/fubon_ss_m02.jpg' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/mgame_ban.png",
     "specMain": "엠게임 와글 프린세스메이커 소셜네트워크게임 사이트",
     "specSub": "구축 프로젝트",
     "specLink": "#",
-    "detailHTML": "<div style='text-align:center;'><img src='./assets/images/wagle1.jpg' alt=''><br><br><br><img src='./assets/images/wagle2.jpg' alt=''><br><br><br><img src='./assets/images/wagle3.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center;'><img src='/images/wagle1.jpg' alt=''><br><br><br><img src='/images/wagle2.jpg' alt=''><br><br><br><img src='/images/wagle3.jpg' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/hanhwa.jpg",
     "specMain": "한화생명 VIP 멤버십 반응형 사이트",
     "specSub": "구축 프로젝트",
     "specLink": "#",
-    "detailHTML": "<div style='text-align:center;'><img src='./assets/images/hanhwa_view01.jpg' alt=''><br><br><br><img src='./assets/images/hanhwa_view02.jpg' alt=''></div>"
+    "detailHTML": "<div style='text-align:center;'><img src='/images/hanhwa_view01.jpg' alt=''><br><br><br><img src='/images/hanhwa_view02.jpg' alt=''></div>"
   },
   {
     "image": "/images/orion_ban.png",
     "specMain": "오리온 웹접근성 갱신 및 운영",
     "specSub": "운영 프로젝트",
     "specLink": "https://www.orionworld.com/",
-    "detailHTML": "<div style='text-align:center;'><img src='./assets/images/orion_1.jpg' alt=''><br><br><br><img src='./assets/images/orion_2.jpg' alt=''><br><br><br><img src='./assets/images/orion_3.jpg' alt=''></div>"
+    "detailHTML": "<div style='text-align:center;'><img src='/images/orion_1.jpg' alt=''><br><br><br><img src='/images/orion_2.jpg' alt=''><br><br><br><img src='/images/orion_3.jpg' alt=''></div>"
   },
   {
     "image": "/images/nps_ban.png",
     "specMain": "국민연금 기금 홈페이지 접근성 구축",
     "specSub": "구축 프로젝트",
     "specLink": "https://fund.nps.or.kr/jsppage/fund/fund_main.jsp",
-    "detailHTML": "<div style='text-align:center;'><img src='./assets/images/main_menu.jpg' alt=''><br><br><br><img src='./assets/images/sub.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center;'><img src='/images/main_menu.jpg' alt=''><br><br><br><img src='/images/sub.jpg' alt=''><br><br><br></div>"
   },
   {
     "image": "/images/ing_ban.jpg",
     "specMain": "ING 생명 VIP 홈페이지 구축",
     "specSub": "구축 프로젝트",
     "specLink": "#",
-    "detailHTML": "<div style='text-align:center;'><img src='./assets/images/ing_main.jpg' alt=''><br><br><br><img src='./assets/images/ing_mobile.jpg' alt=''><br><br><br></div>"
+    "detailHTML": "<div style='text-align:center;'><img src='/images/ing_main.jpg' alt=''><br><br><br><img src='/images/ing_mobile.jpg' alt=''><br><br><br></div>"
   }
 ]

@@ -1255,6 +1255,9 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   overflow: hidden;
   padding-bottom: 62.5%;
 }
+.gallery-thum-row.default {
+  cursor: default;
+}
 .gallery-thum-row > img {
   width: 100%;
   vertical-align: top;

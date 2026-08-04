@@ -780,6 +780,7 @@ html:not(.touchmode) {
   position: relative;
   overflow: hidden;
   padding-bottom: 62.5%;
+  &.default{cursor:default;}
   > img {
     width: 100%;
     vertical-align: top;

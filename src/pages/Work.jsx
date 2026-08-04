@@ -6,6 +6,7 @@ const Work = () => {
   const [detailPopup, setDetailPopup] = useState(false);
   const [closeReq, setCloseReq] = useState(false);
   const imgRender = useRef(null);
+  const [detailView, setDetailView] = useState("");
 
   useEffect(() => {
     fetch("/data.json")
@@ -56,10 +57,11 @@ const Work = () => {
                         <li key={index}>
                           <div className="gallery-item">
                             <button
-                              className="gallery-thum-row"
+                              className={["gallery-thum-row",item.detailHTML === "" && "default"].filter(Boolean).join(" ")}
                               data-view={item.detailHTML}
                               onClick={() => {
                                 if (item.detailHTML !== "") {
+                                  setDetailView(item.detailHTML);
                                   setDetailPopup(true);
                                 }
                               }}
@@ -68,8 +70,12 @@ const Work = () => {
                             </button>
                             <div className="gallery-spec-row">
                               <div className="gallery-spec-main-wrap">
-                                <div className="gallery-spec-main">
-                                  {item.specMain}
+                                <div
+                                  className="gallery-spec-main"
+                                  dangerouslySetInnerHTML={{
+                                    __html: item.specMain,
+                                  }}
+                                >
                                 </div>
                                 <a
                                   href={item.specLink}
@@ -101,8 +107,10 @@ const Work = () => {
       </section>
       {detailPopup && (
         <Popup onClose={() => setDetailPopup(false)} closeRequest={closeReq}>
-          <div className="img_award_view_wrap" ref={imgRender}>
-            img_award_view_wrap
+          <div
+            className="img_award_view_wrap"
+            dangerouslySetInnerHTML={{ __html: detailView }}
+          >
           </div>
         </Popup>
       )}
